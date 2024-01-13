@@ -11,3 +11,7 @@ h1{
 body{
     background-color: grey;
 }
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

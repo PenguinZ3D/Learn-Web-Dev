@@ -1,0 +1,41 @@
+/* 
+
+use # to select a certain id
+use . to select a certain class
+
+*/
+
+/* EXTERNAL CSS */
+
+#external_body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+#p1{
+    color: red;
+}
+
+#p3{
+    color: red;
+}
+
+.even{
+    color: rgb(0, 255, 0);
+}
+
+
+/* FONTS */
+
+#font_header{
+    color: black; /* removes white color from the external css part*/
+    font-family: verdana, arial; /* anything after the comma is a fallback font incase the browser can't display it*/
+}
+
+#font_p{
+    font-family: sans-serif;
+    font-size: 1em;
+}
