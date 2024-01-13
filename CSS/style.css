@@ -35,7 +35,62 @@ h1{
     font-family: verdana, arial; /* anything after the comma is a fallback font incase the browser can't display it*/
 }
 
-#font_p{
-    font-family: sans-serif;
+/* Sizes */
+#size2{
+    font-size: 2em;
+}
+
+#size_normal{
     font-size: 1em;
+}
+
+#size_half{
+    font-size: .5em;
+}
+
+/* Fonts */
+#font1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#font2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#font3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Weights */
+#normal_weight{
+    font-weight: normal;
+}
+
+#bold_weight{
+    font-weight:bold;
+}
+
+/* Styles */
+#normal_style{
+    font-style: normal;
+}
+#italic_style{
+    font-style: italic;
+}
+
+/*Google Fonts*/
+@font-face{
+    src: url(/Fonts/Satisfy-Regular.ttf);
+    font-family: Satisfy-Regular;
+}
+
+@font-face{
+    src: url(/Fonts/PixelifySans-VariableFont_wght.ttf);
+    font-family: PixelifySans;
+}
+
+
+#google_pixel{
+    font-family: PixelifySans;
+}
+#google_satisfy{
+    font-family: Satisfy-Regular, cursive;
 }
